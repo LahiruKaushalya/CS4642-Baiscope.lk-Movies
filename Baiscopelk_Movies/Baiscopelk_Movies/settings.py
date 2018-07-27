@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# Scrapy settings for CS4642_hitAdlk_Car_info project
+# Scrapy settings for Baiscopelk_Movies project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -9,14 +9,14 @@
 #     https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = 'CS4642_hitAdlk_Car_info'
+BOT_NAME = 'Baiscopelk_Movies'
 
-SPIDER_MODULES = ['CS4642_hitAdlk_Car_info.spiders']
-NEWSPIDER_MODULE = 'CS4642_hitAdlk_Car_info.spiders'
+SPIDER_MODULES = ['Baiscopelk_Movies.spiders']
+NEWSPIDER_MODULE = 'Baiscopelk_Movies.spiders'
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'CS4642_hitAdlk_Car_info (+http://www.yourdomain.com)'
+#USER_AGENT = 'Baiscopelk_Movies (+http://www.yourdomain.com)'
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -47,13 +47,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://doc.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    'CS4642_hitAdlk_Car_info.middlewares.Cs4642HitadlkCarInfoSpiderMiddleware': 543,
+#    'Baiscopelk_Movies.middlewares.BaiscopelkMoviesSpiderMiddleware': 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://doc.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    'CS4642_hitAdlk_Car_info.middlewares.Cs4642HitadlkCarInfoDownloaderMiddleware': 543,
+#    'Baiscopelk_Movies.middlewares.BaiscopelkMoviesDownloaderMiddleware': 543,
 #}
 
 # Enable or disable extensions
@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    'CS4642_hitAdlk_Car_info.pipelines.Cs4642HitadlkCarInfoPipeline': 300,
+#    'Baiscopelk_Movies.pipelines.BaiscopelkMoviesPipeline': 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
